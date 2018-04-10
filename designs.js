@@ -20,12 +20,7 @@ $(document).ready(function() {
           var colorChoice = $("#colorPicker").val();
           $(this).css("background-color", colorChoice);
         });
-
       }
     }
   };
-
-
-
-
 });
