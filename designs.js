@@ -1,4 +1,3 @@
-$(document).ready(function() {
   //When size is submitted by the user, call makeGrid()
   $("form").submit(function(event) {
     $("table").empty();
@@ -25,4 +24,3 @@ $(document).ready(function() {
       $(this).css("background-color", colorChoice);
     });
   };
-});
